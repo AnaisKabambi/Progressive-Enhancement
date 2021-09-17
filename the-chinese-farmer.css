@@ -8,8 +8,10 @@ ul{font-family:Open Sans;
     font-size: 20px;
     letter-spacing: 3px;
     color: darkslategrey;
+}
+.list{width: 400px;
     border-style: double;
-
+    box-sizing:border-box;
 }
 
 table{font-family:Open Sans;
@@ -17,7 +19,7 @@ table{font-family:Open Sans;
     letter-spacing: 3px;
     color: darkslategrey;
     text-align: center;
-    width: 100%;
+    width: 50%;
 }
 tr:nth-child(even) {
     background-color: lightgray;
@@ -36,6 +38,7 @@ header{font-family:Open Sans;
     font-size: 20px;
     letter-spacing: 3px;
     color: darkslategrey;
+    text-align: center;
 }
 
 h1{font-family:Open Sans;
@@ -75,15 +78,14 @@ q{font-style: italic;
 
 #neighbours{color: slategrey}
 
-#first{font-weight: bold}
-
-[body~="bad"] {
-    color: red
-}
-body~=good {
-    color: lawngreen
+#first{font-weight: bold;
+    width: 60%;
 }
 
-image{
-    margin: 25px 50px 75px 100px;
+.bad{
+    color: indianred;
 }
+.good{
+    color: yellowgreen;
+}
+
