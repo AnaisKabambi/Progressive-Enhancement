@@ -1,0 +1,89 @@
+p {font-family:Open Sans;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: darkslategrey;
+}
+
+ul{font-family:Open Sans;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: darkslategrey;
+    border-style: double;
+
+}
+
+table{font-family:Open Sans;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: darkslategrey;
+    text-align: center;
+    width: 100%;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+tr:nth-child(odd) {
+    background-color: lightyellow;
+}
+
+footer{font-family:Open Sans;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: darkslategrey;
+}
+
+header{font-family:Open Sans;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: darkslategrey;
+}
+
+h1{font-family:Open Sans;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: darkslategrey;
+}
+
+a:link{color: darkseagreen;
+    text-decoration: none;
+}
+
+a:visited{color: darkolivegreen;
+    text-decoration: none;
+}
+
+a:hover{color: yellowgreen;
+    text-decoration: underline;
+    background-color: lightgoldenrodyellow;
+}
+
+body{width: 90%;
+    margin: 25px 25px 75px 100px;;
+    background-image: url("green background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right bottom;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+q{font-style: italic;
+}
+
+#farmer{color: darkslategrey
+}
+
+#neighbours{color: slategrey}
+
+#first{font-weight: bold}
+
+[body~="bad"] {
+    color: red
+}
+body~=good {
+    color: lawngreen
+}
+
+image{
+    margin: 25px 50px 75px 100px;
+}
